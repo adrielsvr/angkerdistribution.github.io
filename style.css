@@ -1,0 +1,101 @@
+/* LANDING PAGE */
+.jumbotron {
+  background-image: url(img/landingmerah.png);
+  background-size: 115%;
+  background-position: 50% 30%;
+}
+
+.jumbotron img {
+  position: absolute;
+  margin-top: -125px;
+  align-items: center;
+}
+
+.info,
+.job {
+  background-color: #eee;
+}
+
+.contact {
+  background-image: url(img/landingmerah.png);
+  background-size: 115%;
+  background-position: 50% 30%;
+}
+/* AKHIR LANDING PAGE */
+
+/* LOGIN */
+.masuk,
+.regis {
+  background-image: url(img/bg_login_1.png);
+  background-size: 135%;
+  background-position: 50% 30%;
+}
+
+.form-floating {
+  margin: 0 17%;
+}
+
+.daftar {
+  background-image: url(img/bg_login_2.png);
+  background-size: 135%;
+  background-position: 50% 30%;
+}
+/* AKHIR LOGIN */
+
+/* ADMIN PAGE */
+.list-group a {
+  background-color: #eee;
+  color: #da1212;
+}
+
+.content #cv,
+.content #is,
+.content #score,
+.content #passed,
+.content #home,
+.content #apply,
+.content #status,
+.content #edit {
+  display: none;
+}
+
+.content #cv.active {
+  display: flex !important;
+}
+
+.content #is.active {
+  display: flex !important;
+}
+
+.content #score.active {
+  display: flex !important;
+}
+
+.content #passed.active {
+  display: flex !important;
+}
+
+.content #home.active {
+  display: block !important;
+}
+
+.content #apply.active {
+  display: block !important;
+}
+
+.content #status.active {
+  display: block !important;
+}
+
+.content #edit.active {
+  display: block !important;
+}
+
+.list-group-item.active {
+  color: #eee;
+  background-color: #041562;
+}
+
+.img {
+  width: 159px !important;
+}
